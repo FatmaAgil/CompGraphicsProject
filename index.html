@@ -19,7 +19,7 @@
         }
         #try-again {
             position: absolute;
-            top: 60%;
+            top: 70%;
             left: 50%;
             transform: translate(-50%, -50%);
             padding: 10px 20px;
@@ -60,6 +60,7 @@ let score = 0;
 let running = true;
 let snakeSpeed = 2;  // Slow starting snake speed
 let direction = "RIGHT";  // Initial direction
+let highestScore = 0;
 
 // Maze Layout (1 = wall, 0 = open space)
 let MAZE = Array.from({ length: rows }, () => Array(cols).fill(0));
@@ -287,9 +288,16 @@ function gameLoop() {
 
     if (snake.checkWallCollision() || snake.checkSelfCollision()) {
         running = false;
+
+        // Update highest score if current score is higher
+        if (score > highestScore) {
+            highestScore = score;
+        }
+
         tryAgainButton.style.display = 'block'; 
         drawText("Game Over!", WIDTH / 2 - 100, HEIGHT / 2 - 50);
         drawText(`Your Score: ${score}`, WIDTH / 2 - 100, HEIGHT / 2);
+        drawText(`Highest Score: ${highestScore}`, WIDTH / 2 - 100, HEIGHT / 2 + 50); // Display highest score
         return;
     }
 
@@ -310,14 +318,25 @@ function gameLoop() {
         let distance = Math.hypot(head.x - ghost.x, head.y - ghost.y);
         if (distance < snake.radius + ghost.radius) {
             running = false;
+
+             // Update highest score if current score is higher
+             if (score > highestScore) {
+                highestScore = score;
+            }
+
             tryAgainButton.style.display = 'block'; // Show Try Again button
             drawText("Game Over!", WIDTH / 2 - 100, HEIGHT / 2 - 50);
             drawText(`Your Score: ${score}`, WIDTH / 2 - 100, HEIGHT / 2);
+            drawText(`Highest Score: ${highestScore}`, WIDTH / 2 - 100, HEIGHT / 2 + 50); // Display highest score
             return;
         }
     }
 
     drawText(`Score: ${score}`, 10, 40);
+   // Display highest score on the top-right corner
+   const highestScoreText = `Highest Score: ${highestScore}`;
+    const textWidth = ctx.measureText(highestScoreText).width;
+    drawText(highestScoreText, WIDTH - textWidth - 10, 40);
     requestAnimationFrame(gameLoop);  // Loop the game
 }
 
