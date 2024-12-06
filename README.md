@@ -1,10 +1,10 @@
-# **Pac-Man Reimagined** 🎮🍒
+# **Maze Muncher** 🎮🍒
 
 Dive into the **nostalgia-filled labyrinth** with a thrilling twist! In this game, you'll guide Pac-Man through a maze of challenges, dodge crafty ghosts, and gobble up pellets like your life depends on it (because it does). 🎩
 
 ## **Overview**
 
-Welcome to **Pac-Man Reimagined**, a fun and interactive web-based game where you navigate Pac-Man through a dynamic maze, avoiding the relentless ghosts that only live for the thrill of catching you. The game combines nostalgia with modern programming, offering players hours of fun and intense gameplay across various difficulty levels.
+Welcome to **Maze Muncher Reimagined**, a fun and interactive web-based game where you navigate Pac-Man through a dynamic maze, avoiding the relentless ghosts that only live for the thrill of catching you. The game combines nostalgia with modern programming, offering players hours of fun and intense gameplay across various difficulty levels.
 
 - **Simple Controls:** Navigate with your arrow keys and outsmart those cheeky ghosts.
 - **Dynamic Gameplay:** Choose between Easy, Medium, and Hard difficulty levels for a more challenging experience.
@@ -12,7 +12,7 @@ Welcome to **Pac-Man Reimagined**, a fun and interactive web-based game where yo
 
 ## **Features**
 
-### 🟡 **Classic Pac-Man Vibes**
+### 🟡 **Classic Maze Muncher Vibes**
 - Navigate the maze, collect pellets, and avoid the infamous ghosts.
 - A visually pleasing game board with retro-inspired colors and animations.
 
@@ -158,7 +158,6 @@ Want to add power-ups, bonus levels, or funky ghosts? Fork the repo and let your
 
 ## **Acknowledgments**
 
-- **Original Pac-Man Creators:** For inspiring this modern-day homage.
 - **You:** For being curious enough to read this far. Go play already!
 - **Music.js Devs:** For keeping the vibe alive.
 
