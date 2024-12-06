@@ -51,7 +51,7 @@ Welcome to **Maze Muncher**, an interactive web-based game that brings back arca
 
 ---
 
-## **How to Play**
+# **How to Play**
 
 1. **Get Started:**
    - Select your desired difficulty from the dropdown menu.
