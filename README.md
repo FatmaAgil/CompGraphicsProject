@@ -1,154 +1,115 @@
-# **WebGL Applications: Interactive Graphics by Group 5**
 
-Welcome to **Group 5's WebGL Applications Project**! This repository contains our interactive graphics application developed using WebGL. Our aim is to harness the power of WebGL to create a captivating and feature-rich 3D experience with dynamic visuals, animations, and music.
+# CompGraphicsProject
 
----
+## Overview
 
-## **Project Overview**
+**CompGraphicsProject** is an advanced computer graphics project designed to explore and implement various rendering techniques and graphical algorithms. This project aims to provide an interactive platform for visualizing [specific concept, e.g., 3D models, lighting, shaders, animation, etc.] in a dynamic environment. It is developed with the intention of showcasing the practical application of computer graphics principles in [specific area, e.g., game development, simulations, education, etc.].
 
-Our project is an **interactive 3D game** featuring:
-- **Animations**: Smooth transitions and dynamic movements for an engaging experience.
-- **Music**: Background music and sound effects to enhance interactivity.
-- **Dynamic UI**: A navy blue-themed interface for an elegant and modern look.
-- **Obstacles**: Challenges that make gameplay interesting and immersive.
-- **3D Visuals**: Layered objects, textures, and lighting to bring the environment to life.
-- **Interactive Elements**: A food object that changes color dynamically.
+Key features include:
+- [Key feature 1, e.g., Real-time rendering of 3D models]
+- [Key feature 2, e.g., Shader-based lighting effects]
+- [Key feature 3, e.g., Interactive user interface for model manipulation]
 
-This project showcases teamwork, problem-solving, and creativity as we explore the potential of WebGL.
+## Prerequisites
 
----
+Before setting up the project, ensure that you have the following installed on your machine:
 
-## **Getting Started**
+- **Operating System**: [Windows 10+, macOS 10.15+, or Linux]
+- **Software Dependencies**:
+  - [Specific version of software, e.g., Python 3.8+, Node.js, Unity, or OpenGL]
+  - Required libraries and packages:
+    - [List of libraries or frameworks, e.g., `numpy`, `glfw`, `PyOpenGL`]
+  
+### Recommended Setup
+It is recommended to use [specific IDE or development environment] for the best development experience. This project can be run on any modern system with proper graphics hardware support (OpenGL, DirectX, or Vulkan).
 
-### **Prerequisites**
+## Installation Guide
 
-Before starting, make sure you have the following:
-1. **Web Browser**: Chrome, Firefox, or any browser with WebGL support.
-2. **Code Editor**: Visual Studio Code or any editor of your choice.
-3. **Basic Skills**: Knowledge of HTML, CSS, JavaScript, and 3D graphics concepts.
+Follow the steps below to set up **CompGraphicsProject** on your local machine:
 
----
-
-### **Setup Instructions**
-
-1. Clone the repository:
+1. **Clone the Repository**  
+   Clone the repository to your local machine using Git:
    ```bash
-   git clone https://github.com/group5/webgl-graphics-app.git
+   git clone https://github.com/yourusername/CompGraphicsProject.git
    ```
-2. Navigate to the project directory:
+2. **Navigate to the Project Directory**  
+   Move into the project folder:
    ```bash
-   cd webgl-graphics-app
+   cd CompGraphicsProject
    ```
-3. Open the `index.html` file in a WebGL-supported browser.
+3. **Install Dependencies**  
+   Depending on the language and framework you're using, run the appropriate command to install the necessary dependencies.
+   - For Python projects:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - For Node.js projects:
+     ```bash
+     npm install
+     ```
+   - For Unity projects, follow the Unity setup guide in the `docs` folder.
+
+4. **Run the Project**
+   Execute the project depending on your platform:
+   - **Windows**: Run `CompGraphicsProject.exe`
+   - **macOS**: Open the project using Xcode or run from terminal: `./CompGraphicsProject.app`
+   - **Linux**: Run from the terminal: `./CompGraphicsProject`
+
+## Key Features and Functionality
+
+### Interactive 3D Rendering
+- **Real-Time Rendering**: The core of this project is its ability to render 3D models in real-time, providing dynamic visualization of computational graphics.
+- **Shader Effects**: Custom shaders are implemented for realistic lighting, shadows, and materials, enabling advanced visual effects.
+- **User Interactivity**: Users can manipulate the models and observe real-time changes in the scene via mouse or keyboard controls.
+
+### Background Music
+This project includes a carefully selected background music track that enhances the overall user experience. The music is intended to complement the graphical features and create an immersive environment.
+
+- **Composer**: [Veronah Kartel]
+- **Track Name**: [M1]
+- **License**: [MIT License, Creative Commons]
+
+## Usage
+
+### Controls
+- **Mouse**: Rotate and zoom in/out the scene.
+- **Keyboard**:
+  - `W`: Move forward
+  - `S`: Move backward
+  - `A`: Strafe left
+  - `D`: Strafe right
+  - [Other controls]
+
+### Visual Features
+- **Model Manipulation**: Users can load different 3D models and interact with them in the viewport.
+- **Scene Lighting**: Real-time adjustment of scene lighting using different lighting models such as point lights, directional lights, and spotlights.
+
+## Contributing
+
+We welcome contributions to **CompGraphicsProject** from both novice and expert developers. To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make changes and ensure that they are thoroughly tested.
+4. Submit a pull request with a detailed description of your changes.
+
+Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Please refer to the LICENSE file for full details.
+
+## Acknowledgments
+
+- **[Mr. Kevin Omondi]** for [support/advice during the project].
 
 ---
 
-## **Development Highlights**
-
-### **Features**
-- **3D Visuals**: A layered environment with depth and perspective.
-- **Dynamic Food**: Changes colors at random intervals.
-- **Smooth Animations**: Realistic movement for characters and objects.
-- **Obstacles**: Randomly appearing challenges to navigate.
-- **Interactive UI**: Navy blue interface with user-friendly controls.
-- **Background Music**: A looping soundtrack for immersion.
-
----
-
-### **Project Structure**
 ```
-webgl-graphics-app/
-│
-├── index.html             # Main HTML file
-├── style.css              # Styling for the UI
-├── script.js              # Core application logic
-├── assets/                # Music, textures, and models
-│   ├── music/             # Background music files
-│   ├── textures/          # Texture images
-│   └── models/            # 3D models
-├── shaders/               # WebGL shader programs (vertex & fragment)
-└── README.md              # Project documentation
-```
 
----
-
-### **UI and Gameplay**
-
-1. **Navy Blue UI**:
-   - Designed for visual appeal.
-   - Clear and intuitive controls.
-
-2. **Gameplay Elements**:
-   - Navigate a 3D space with dynamic lighting and textures.
-   - Collect food items that change colors.
-   - Avoid obstacles to progress.
-
-3. **Music**:
-   - Background music enhances engagement.
-   - Optional sound effects for interactions.
-
----
-
-## **Collaboration**
-
-As **Group 5**, we adopted the following workflow:
-1. **Team Brainstorming**: Collaborative sessions to design the application.
-2. **Task Assignment**: Responsibilities divided based on strengths and interests.
-3. **Version Control**: All updates managed via Git.
-4. **Testing and Feedback**: Regular reviews to refine features.
-
----
-
-## **Contributing**
-
-Want to contribute? Here’s how:
-1. Fork this repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b new-feature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin new-feature
-   ```
-5. Open a pull request.
-
----
-
-## **Planned Improvements**
-
-- **Enhanced Obstacle Dynamics**: Add more complexity and variety.
-- **Advanced Lighting**: Experiment with shadows and reflections.
-- **Power-Ups**: Add bonuses to reward players.
-
----
-
-## **Resources**
-
-### **Documentation**
-- [WebGL Fundamentals](https://webglfundamentals.org/)
-- [MDN WebGL Guide](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
-
-### **Tools**
-- [GLSL Sandbox](https://glslsandbox.com/) for shader testing.
-- [Three.js](https://threejs.org/) for simplified 3D graphics.
-
----
-
-## **Acknowledgments**
-
-This project is a collaborative effort by **Group 5**. We are grateful for the guidance and support provided by our instructor and peers.
-
----
-
-## **License**
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-Enjoy the game and explore the fascinating world of WebGL! Feedback and suggestions are always welcome.
+### Key Features:
+- **Concise Overview**: Starts with a concise yet detailed explanation of the project’s purpose, suitable for academic or professional settings.
+- **Clear Setup Instructions**: Provides step-by-step instructions for setup and installation.
+- **Professional Language**: Written in a clean, formal tone expected in academic projects.
+- **Acknowledgments**: Includes space to acknowledge any tools, libraries, or individuals who contributed to the project.
+- **Contribution Guidelines**: Encourages others to contribute with a formal guide, making it suitable for collaboration.
