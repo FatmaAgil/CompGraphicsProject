@@ -1,79 +1,78 @@
 # **Maze Muncher** 🎮🍒
 
-Dive into the **nostalgia-filled labyrinth** with a thrilling twist! In this game, you'll guide Pac-Man through a maze of challenges, dodge crafty ghosts, and gobble up pellets like your life depends on it (because it does). 🎩
+Prepare yourself for a **maze-filled adventure** with a twist! In **Maze Muncher**, you'll guide our fearless yellow hero through a labyrinth of pellets, outmaneuver ghosts with questionable ethics, and prove your mastery of the munch! 🎩
 
 ## **Overview**
 
-Welcome to **Maze Muncher Reimagined**, a fun and interactive web-based game where you navigate Pac-Man through a dynamic maze, avoiding the relentless ghosts that only live for the thrill of catching you. The game combines nostalgia with modern programming, offering players hours of fun and intense gameplay across various difficulty levels.
+Welcome to **Maze Muncher**, an interactive web-based game that brings back arcade nostalgia with a dash of modern creativity. Navigate through a maze, dodge those sneaky ghosts, and clear the board of pellets for a well-deserved victory. Whether you’re a casual gamer or a hardcore muncher, this game offers something for everyone.
 
-- **Simple Controls:** Navigate with your arrow keys and outsmart those cheeky ghosts.
-- **Dynamic Gameplay:** Choose between Easy, Medium, and Hard difficulty levels for a more challenging experience.
-- **Background Music:** Let the nostalgic tunes take you back to the golden era of arcade gaming.
+- **Simple Controls:** Easy arrow-key navigation to glide through the maze.
+- **Dynamic Gameplay:** Tailored difficulty levels—because we believe in making everyone suffer (at their own pace).
+- **Background Music:** Nostalgic tunes to make munching an auditory treat.
 
 ## **Features**
 
-### 🟡 **Classic Maze Muncher Vibes**
-- Navigate the maze, collect pellets, and avoid the infamous ghosts.
-- A visually pleasing game board with retro-inspired colors and animations.
+### 🟡 **Arcade Nostalgia with a Twist**
+- Smooth navigation in a retro-inspired maze.
+- Collect pellets and avoid the cunning ghosts at all costs.
 
-### 👻 **Challenging Ghosts**
-- Each difficulty level increases the number and speed of ghosts.
-- Ghosts adapt their paths to chase you with cunning strategies.
+### 👻 **Ghostly Pursuers**
+- Adaptive ghosts that adjust their paths to hunt you down.
+- The higher the difficulty, the scarier (and faster) they get. Run!
 
-### 🎵 **Background Music**
-- A groovy, adrenaline-pumping background score (thanks to the smooth loops from `Music.js`) that enhances your gaming vibe. Don’t like the ghosts? Dance your fears away.
+### 🎵 **Immersive Soundtrack**
+- Background tunes to set the perfect mood. 
+- Get lost in the music (but don’t lose focus on the ghosts).
 
-### 🎮 **Levels of Difficulty**
-- **Easy:** 1 ghost, perfect for beginners (or your grandma).
-- **Medium:** 2 ghosts, a solid challenge.
-- **Hard:** 3 speedy ghosts that will haunt your dreams.
+### 🎮 **Custom Difficulty Levels**
+- **Easy:** One ghost—perfect for warming up your munching skills.
+- **Medium:** Two ghosts—because life isn’t always easy.
+- **Hard:** Three relentless ghosts that question your every life decision.
 
-### 🎯 **Responsive UI**
-- Smooth gameplay on any modern browser.
-- Intuitive controls and dynamic visuals to keep you engaged.
+### 🎯 **Responsive Design**
+- Optimized for all modern browsers.
+- Sleek and intuitive interface for seamless gameplay.
 
 ---
 
 ## **Game Preview**
 
-### Gameplay Screenshots
-#### Main Gameplay:
-![Game in action](![Screenshot 2024-12-06 130943](https://github.com/user-attachments/assets/53792b7d-bbd7-4c64-98bc-75281597a08a)
+### Main Gameplay:
+![Game in action](![Screenshot 2024-12-06 130943](https://github.com/user-attachments/assets/671f133c-8590-4719-8b3b-73a968e24ad3)
 )
 
-#### Game Over (Oops!):
-![Game Over](![Screenshot 2024-12-06 131225](https://github.com/user-attachments/assets/437784cb-0341-41e9-a6dd-80fac5b54131)
+### Game Over (Oops!):
+![Game Over](![Screenshot 2024-12-06 131225](https://github.com/user-attachments/assets/3b49cb1a-c287-4078-8558-dd22fd6bd36c)
 )
 
-#### Difficulty Selector:
-![Difficulty Selection](![Screenshot 2024-12-06 131243](https://github.com/user-attachments/assets/c0e44c57-6870-48e9-9675-564bc7d7e4f5)
+### Difficulty Selector:
+![Difficulty Selection](![Screenshot 2024-12-06 131243](https://github.com/user-attachments/assets/31eaf142-a576-4e29-86f2-edb7abbf5154)
 )
 
 ---
 
 ## **How to Play**
 
-1. **Start the Game:**
-   - Select your difficulty level from the dropdown.
-   - Hit the **Start Game** button.
-   - Move Pac-Man using the **arrow keys**.
-   
-2. **Objective:**
-   - Collect all pellets while avoiding ghosts.
-   - Each pellet boosts your score. 🎯
+1. **Get Started:**
+   - Select your desired difficulty from the dropdown menu.
+   - Click **Start Game** and jump straight into the maze.
+   - Use **arrow keys** to control your hero.
 
-3. **Ghost Encounter:**
-   - A ghost touches you = instant *Game Over*!
-   - Click **Try Again** to redeem your dignity. 😎
+2. **The Goal:**
+   - Clear all pellets from the maze.
+   - Avoid ghosts at all costs (they’re not as friendly as they look).
+
+3. **Game Over:**
+   - A ghost touches you? It's all over. Click **Try Again** and show those ghosts who’s boss.
 
 4. **Victory:**
-   - Clear all pellets on the board for a glorious win. 
+   - Successfully clear the board of pellets to win the game.
 
 ---
 
 ## **Installation**
 
-Follow these steps to set up the game locally:
+Follow these steps to enjoy **Maze Muncher** on your local machine:
 
 1. **Clone the Repository**
    ```bash
@@ -81,22 +80,29 @@ Follow these steps to set up the game locally:
    cd CompGraphicsProject
    ```
 
-2. **Serve the Game**
-   Open the `index.html` file in your browser. That’s it! No complex setups. 🍀
+2. **Open the Game**
+   - Locate the `index.html` file in your directory.
+   - Open it in your favorite browser (or whatever browser you’re stuck with). 
 
+3. **Optional Local Server**
+   - For advanced users, serve the game using:
+     - Python:
+       ```bash
+       python -m http.server
+       ```
 ---
 
 ## **Controls**
 
-- **Arrow Keys:** Move Pac-Man:
-  - ⬆️: Up
-  - ⬇️: Down
-  - ➡️: Right
-  - ⬅️: Left
+- **Arrow Keys:** Navigate through the maze:
+  - ⬆️: Move Up
+  - ⬇️: Move Down
+  - ➡️: Move Right
+  - ⬅️: Move Left
 
 - **Mouse:**
-  - Start or Restart the game by clicking the buttons.
-  - Adjust difficulty using the dropdown.
+  - Use buttons to start or restart the game.
+  - Select difficulty from the dropdown menu.
 
 ---
 
@@ -104,64 +110,70 @@ Follow these steps to set up the game locally:
 
 ### Game Elements
 1. **Maze:**
-   - Built on a grid using a 2D array (`MAZE`).
-   - Walls are marked as `1`, paths as `0`.
+   - The game maze is structured as a grid (15x20 cells), built using a 2D array (`MAZE`).
+   - Walls (`1`) block your path, while clear routes (`0`) let you move freely.
 
 2. **Pellets:**
-   - Auto-generated at the start of the game.
-   - Disappear when Pac-Man eats them.
+   - Scattered across the maze at the start of the game.
+   - Each pellet increases your score.
 
-3. **Pac-Man:**
-   - Moves in the selected direction until hitting a wall.
-   - Controlled using keyboard events (`keydown`, `keyup`).
+3. **Ghosts:**
+   - Programmed to chase you using adaptive algorithms.
+   - Their speed and count vary based on the selected difficulty.
 
-4. **Ghosts:**
-   - Follow Pac-Man using a heuristic algorithm.
-   - Adjust their behavior based on proximity.
+4. **Maze Hero (aka You):**
+   - Moves continuously in the chosen direction.
+   - Cannot pass through walls (because physics, duh).
 
 ### Technical Details
-- **Canvas API:** Renders the maze, characters, and animations.
-- **JavaScript Classes:** Simplifies the logic for entities like ghosts.
-- **Audio API:** Manages background music and sound effects.
+- **Canvas API:** Handles the rendering of the maze, Pac-Man, ghosts, and animations.
+- **JavaScript Classes:** Simplifies ghost logic and pellet behavior.
+- **Audio API:** Provides seamless background music for immersive gameplay.
 
 ---
 
 ## **Tips and Tricks**
 
-1. **Stay Sharp:**
-   Always plan your moves ahead. Ghosts don’t forgive mistakes! 🧠
-   
-2. **Use Corners:**
-   Tricky ghosts sometimes get confused at corners—use this to your advantage.
+1. **Stay Ahead of the Ghosts:**
+   - Always plan your moves. Ghosts are faster than you think.
 
-3. **Difficulty Scaling:**
-   Start with **Easy** to master movement before trying harder levels.
+2. **Corner Strategy:**
+   - Use corners to throw ghosts off their path.
+
+3. **Master Easy Before Moving Up:**
+   - Learn the maze and ghost behavior on Easy mode before trying Medium or Hard.
+
+4. **Be Persistent:**
+   - Ghosts may get you, but they can’t stop you from hitting that **Try Again** button.
 
 ---
 
 ## **Contributing**
 
-Want to add power-ups, bonus levels, or funky ghosts? Fork the repo and let your imagination run wild! Here’s how:
+Want to add power-ups, new mazes, or more devious ghosts? Join the **Maze Muncher** project!
+
 1. Fork the repository.
-2. Create a feature branch:
+2. Create a branch for your changes:
    ```bash
-   git checkout -b new-feature
+   git checkout -b feature/new-feature
    ```
-3. Commit and push:
+3. Commit and push your changes:
    ```bash
-   git commit -m "Add your message"
-   git push origin new-feature
+   git commit -m "Added new maze"
+   git push origin feature/new-feature
    ```
-4. Open a pull request.
+4. Submit a pull request, and let’s make this game even more epic.
 
 ---
 
 ## **Acknowledgments**
 
-- **You:** For being curious enough to read this far. Go play already!
-- **Music.js Devs:** For keeping the vibe alive.
+- **The Original Maze Legends:** For inspiring generations of maze gamers.
+- **JavaScript & Canvas API:** For making browser-based creativity possible.
+- **Music.js Creators:** For adding life to this munch-tastic adventure.
 
 ---
 
-### 🚀 **Get Ready for the Maze Mayhem!**
-*"Warning: Side effects include ghost paranoia and an unexplained love for yellow circles."* 🟡
+### 🚀 **Ready to Munch?**
+*"Side effects include ghost-dodging reflexes and an unhealthy obsession with yellow circles."* 🟡  
+Go ahead—**hit Start and get munching!** 🎮 
